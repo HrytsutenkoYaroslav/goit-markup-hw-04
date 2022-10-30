@@ -377,6 +377,7 @@ ul {
 }
 .li-width {
   width: 270px;
+  
 }
 .team-text {
   padding-top: 30px;
@@ -457,13 +458,11 @@ ul {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
   color: #afb1b8;
   width: 170px;
   height: 92px;
+  justify-content: center;
+  align-items: center;
 }
 .client-icon {
   fill: currentColor;
@@ -492,7 +491,10 @@ ul {
 .contact:hover .tel-icon {
   fill: #2196f3;
 }
-.contact:hover .mail-icon {
+.contact:focus .tel-icon {
+  fill: #2196f3;
+}
+.contact:focus .mail-icon {
   fill: #2196f3;
 }
 
@@ -503,6 +505,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 .team-item {
   background-color: #ffffff;
